@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+    .form-container {
+        width: 90%; /* Ajusta a largura para ocupar 90% da tela */
+        margin: 20px auto; /* Adiciona margens laterais automáticas */
+        padding: 20px; /* Reduz o padding para telas menores */
+    }
+
+    .empresa-info {
+        flex-direction: column; /* Alinha os itens em coluna para telas menores */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .card {
+        margin: 10px 0; /* Adiciona margem superior e inferior para espaçar melhor os cards */
+        width: 100%; /* Ajusta a largura do card para ocupar toda a largura disponível */
+        height: auto; /* Ajusta a altura automaticamente para o conteúdo */
+    }
+
+    footer {
+        margin-top: 30px; /* Reduz o espaço acima do footer */
+        padding: 20px; /* Ajusta o padding para telas menores */
+    }
+
+    nav {
+        max-width: 100%; /* Garante que a largura do nav ocupe toda a tela */
+        display: none; /* Mantém o nav oculto para telas pequenas */
+    }
+
+    header {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px; /* Adiciona um pouco de margem inferior para separar do conteúdo */
+    }
+
+    header h1 {
+        color: white;
+        text-shadow: 5px 2px 10px rgba(0, 0, 0, 0.699);
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.788);
+        padding: 10px;
+        font-size: 24px; /* Ajusta o tamanho da fonte para telas menores */
+    }
+}
